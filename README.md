@@ -1,6 +1,6 @@
 # 🏠 LA Airbnb Market Analysis — The Ghost Hotel Crisis
 
-> Uncovering $2.1B in unlicensed short-term rentals across Los Angeles using Python, SQL, and Power BI
+> Uncovering $1.8B in unlicensed short-term rentals across Los Angeles using Python, SQL, and Power BI
 
 ---
 
@@ -28,6 +28,12 @@ This end-to-end data analytics project analyzes **45,585 Airbnb listings** acros
 ### 1. The Compliance Crisis
 - **71.8%** of listings (32,717) operate without required licenses
 - Only 28.2% maintain proper licensing — a competitive moat in a potential crackdown
+- Revenue Exposure Estimate
+To quantify the economic impact of non-compliance, I multiplied the count of unlicensed listings (32,717) by a conservative industry revenue benchmark. Airbtics' 2026 Los Angeles market report estimates median annual host revenue at $54,000 per active listing. This yields:
+
+32,717 unlicensed listings × $54,000 = ~$1.77 billion ≈ $1.8 billion
+Source: https://airbtics.com/annual-airbnb-revenue-in-los-angeles-california-usa/
+
 
 ### 2. Ghost Hotel Operators
 - Top 11 commercial operators control **2,274 listings** (5% market share)
@@ -65,6 +71,7 @@ Neighborhood concentration, occupancy analysis by room type, commercial vs indiv
 
 [Inside Airbnb](http://insideairbnb.com/) — Los Angeles, December 2025
 45,585 active listings | 23,005 unique hosts | 266 neighborhoods
+
 
 
 
